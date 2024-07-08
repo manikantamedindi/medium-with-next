@@ -1,0 +1,122 @@
+export const articles = [
+  {
+    id: 1,
+    author: "Brian Jenney",
+    title: "The Upcoming “Robotaxi Day” Could Make Or Break Tesla",
+    description: "Google’s good news and bad news came very suddenly.",
+    tag: "Tech",
+    responses: 23,
+    claps: 1.2,
+    publishDate: "16-06-2024",
+    staffPics: true,
+    profileImage: "profile-1.jpg"
+  },
+  {
+    id: 2,
+    author: "Alex Smith",
+    title: "AI in Healthcare: Transforming the Future",
+    description: "How artificial intelligence is revolutionizing healthcare.",
+    tag: "Health",
+    responses: 12,
+    claps: 3.5,
+    publishDate: "12-05-2024",
+    staffPics: false,
+    profileImage: "profile-2.jpg"
+  },
+  {
+    id: 3,
+    author: "Jessica Brown",
+    title: "The Economics of Climate Change",
+    description: "Exploring the financial impacts of global warming.",
+    tag: "Economics",
+    responses: 45,
+    claps: 2.3,
+    publishDate: "10-04-2024",
+    staffPics: true,
+    profileImage: "profile-1.jpg"
+  },
+  {
+    id: 4,
+    author: "Michael Davis",
+    title: "Cryptocurrency: A Double-Edged Sword",
+    description: "The risks and rewards of investing in cryptocurrency.",
+    tag: "Finance",
+    responses: 30,
+    claps: 4.0,
+    publishDate: "01-06-2024",
+    staffPics: false,
+    profileImage: "profile-2.jpg"
+  },
+  {
+    id: 5,
+    author: "Sarah Wilson",
+    title: "The Future of Remote Work",
+    description: "How remote work is shaping the global job market.",
+    tag: "Business",
+    responses: 18,
+    claps: 2.8,
+    publishDate: "15-06-2024",
+    staffPics: true,
+    profileImage: "profile-1.jpg"
+  },
+  {
+    id: 6,
+    author: "David Lee",
+    title: "The Rise of Electric Vehicles",
+    description: "Why electric vehicles are becoming more popular.",
+    tag: "Automotive",
+    responses: 25,
+    claps: 3.1,
+    publishDate: "05-05-2024",
+    staffPics: false,
+    profileImage: "profile-2.jpg"
+  },
+  {
+    id: 7,
+    author: "Emma Martinez",
+    title: "Advancements in Quantum Computing",
+    description: "The potential and challenges of quantum computing.",
+    tag: "Technology",
+    responses: 22,
+    claps: 4.5,
+    publishDate: "20-06-2024",
+    staffPics: true,
+    profileImage: "profile-2.jpg"
+  },
+  {
+    id: 8,
+    author: "John Thompson",
+    title: "Mental Health Awareness",
+    description: "The importance of mental health in the modern world.",
+    tag: "Health",
+    responses: 40,
+    claps: 3.7,
+    publishDate: "25-05-2024",
+    staffPics: false,
+    profileImage: "profile-2.jpg"
+  },
+  {
+    id: 9,
+    author: "Olivia Perez",
+    title: "Sustainable Fashion: A New Trend",
+    description: "How sustainability is influencing the fashion industry.",
+    tag: "Fashion",
+    responses: 15,
+    claps: 2.9,
+    publishDate: "30-06-2024",
+    staffPics: true,
+    profileImage: "profile-2.jpg"
+  },
+  {
+    id: 10,
+    author: "James Clark",
+    title: "The Evolution of Social Media",
+    description: "The changes and future trends in social media platforms.",
+    tag: "Social Media",
+    responses: 50,
+    claps: 4.2,
+    publishDate: "08-06-2024",
+    staffPics: false,
+    profileImage: "profile-2.jpg"
+  }
+];

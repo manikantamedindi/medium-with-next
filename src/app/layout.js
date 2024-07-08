@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <Header></Header>
         <Notifications />
         <div className="dashboard">
-          <div className="container">
+          <div className="container max-w-7xl m-auto py-5">
             {children}
           </div>
         </div>
