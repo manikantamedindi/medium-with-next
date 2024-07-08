@@ -2,6 +2,7 @@ import Image from "next/image";
 export default function StaffPicksItem({ data }) {
   return (
     <>
+
       {data.staffPics === true && (
         <div className="eachCard mb-4">
           <div className="personDetails">
@@ -11,7 +12,7 @@ export default function StaffPicksItem({ data }) {
               </div>
               <h4 className="text-sm color-[#242424]">{data.author}</h4>
             </div>
-            <h3 className="articleHeading font-extrabold text-lg mt-1">{data.title}</h3>
+            <h3 className="articleHeading font-extrabold text-lg mt-1 truncate">{data.title}</h3>
           </div>
         </div>
       )}

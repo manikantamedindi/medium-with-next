@@ -15,10 +15,8 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Header></Header>
         <Notifications />
-        <div className="dashboard">
-          <div className="container max-w-7xl m-auto py-5">
-            {children}
-          </div>
+        <div className="max-w-7xl m-auto">
+          {children}
         </div>
       </body>
     </html>
