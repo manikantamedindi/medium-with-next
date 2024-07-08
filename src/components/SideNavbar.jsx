@@ -1,9 +1,9 @@
-import StaffPics from "./StaffPicks";
+import StaffPicks from "./StaffPicks";
 
 export default function SideNavbar() {
   return (
     <>
-      <StaffPics />
+      <StaffPicks />
     </>
   )
 }
